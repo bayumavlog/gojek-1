@@ -6,7 +6,7 @@ echo "\e            GOJEK VERSION 1.6.2            \n";
 echo "\e SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER\n";
 echo "\n";
 nope:
-echo "\e[?] Masukkan Nomor HP Anda (1) : ";
+echo "\e[?] Masukkan Nomor HP Anda (62) : ";
 $nope = trim(fgets(STDIN));
 $cek = cekno($nope);
 if ($cek == false)
