@@ -39,7 +39,7 @@ if ($register == false)
 		$h=fopen("newgojek.txt","a");
 		fwrite($h,json_encode(array('token' => $verif, 'voc' => 'gofood gak ada'))."\n");
 		fclose($h); 
-                echo "\e[!] Trying to redeem Voucher : G-C99FGCK !\n";
+                echo "\e[!] Trying to redeem Voucher :G-7RCBDYN  !\n";
                 sleep(3);
             $claim = cekvocer($verif);
             if ($claim == false){
